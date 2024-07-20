@@ -2,17 +2,21 @@
 
 Here's a detailed README file for a Business Dashboard project. This README includes information about the project, setup instructions, and usage details.
 
-Business Dashboard
+**Business Dashboard
+
 Table of Contents
+
 Project Overview
+
 Features
+
 Tech Stack
+
 Installation
+
 Usage
-Folder Structure
-Contributing
-License
-Contact
+**
+ 
 Project Overview
 The Business Dashboard is a responsive web application designed to provide a comprehensive overview of a business's key performance indicators (KPIs), user activities, and other critical metrics. The dashboard allows administrators to monitor and manage various aspects of the business effectively.
 
