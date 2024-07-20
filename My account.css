@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    display: flex;
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sidebar ul li a.active {
+    font-weight: bold;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.activities table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.activities table, th, td {
+    border: 1px solid #ddd;
+}
+
+.activities th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.activities th {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.activities tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.activities tr:hover {
+    background: #f1f1f1;
+}
+
+#logout-btn {
+    color: red;
+    font-weight: bold;
+}

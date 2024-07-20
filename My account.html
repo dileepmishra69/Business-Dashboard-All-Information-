@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Activities</title>
+    <link rel="stylesheet" href="My account.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#activities" class="active">Activities</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="Account.html" id="logout-btn">Logout</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header>
+                <h1>All Activities</h1>
+            </header>
+            <section class="activities">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Activity ID</th>
+                            <th>User</th>
+                            <th>Action</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="activities-body">
+                        <!-- Activities will be inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="My account.js"></script>
+</body>
+</html>

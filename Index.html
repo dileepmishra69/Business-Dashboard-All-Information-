@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord Overview</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+		<script type="text/javascript">
+			window.tailwind.config = {
+				darkMode: ['class'],
+				theme: {
+					extend: {
+						colors: {
+							border: 'hsl(var(--border))',
+							input: 'hsl(var(--input))',
+							ring: 'hsl(var(--ring))',
+							background: 'hsl(var(--background))',
+							foreground: 'hsl(var(--foreground))',
+							primary: {
+								DEFAULT: 'hsl(var(--primary))',
+								foreground: 'hsl(var(--primary-foreground))'
+							},
+							secondary: {
+								DEFAULT: 'hsl(var(--secondary))',
+								foreground: 'hsl(var(--secondary-foreground))'
+							},
+							destructive: {
+								DEFAULT: 'hsl(var(--destructive))',
+								foreground: 'hsl(var(--destructive-foreground))'
+							},
+							muted: {
+								DEFAULT: 'hsl(var(--muted))',
+								foreground: 'hsl(var(--muted-foreground))'
+							},
+							accent: {
+								DEFAULT: 'hsl(var(--accent))',
+								foreground: 'hsl(var(--accent-foreground))'
+							},
+							popover: {
+								DEFAULT: 'hsl(var(--popover))',
+								foreground: 'hsl(var(--popover-foreground))'
+							},
+							card: {
+								DEFAULT: 'hsl(var(--card))',
+								foreground: 'hsl(var(--card-foreground))'
+							},
+						},
+					}
+				}
+			}
+		</script>
+		<style type="text/tailwindcss">
+			@layer base {
+				:root {
+					--background: 0 0% 100%;
+--foreground: 240 10% 3.9%;
+--card: 0 0% 100%;
+--card-foreground: 240 10% 3.9%;
+--popover: 0 0% 100%;
+--popover-foreground: 240 10% 3.9%;
+--primary: 240 5.9% 10%;
+--primary-foreground: 0 0% 98%;
+--secondary: 240 4.8% 95.9%;
+--secondary-foreground: 240 5.9% 10%;
+--muted: 240 4.8% 95.9%;
+--muted-foreground: 240 3.8% 46.1%;
+--accent: 240 4.8% 95.9%;
+--accent-foreground: 240 5.9% 10%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 0 0% 98%;
+--border: 240 5.9% 90%;
+--input: 240 5.9% 90%;
+--ring: 240 5.9% 10%;
+--radius: 0.5rem;
+				}
+				.dark {
+					--background: 240 10% 3.9%;
+--foreground: 0 0% 98%;
+--card: 240 10% 3.9%;
+--card-foreground: 0 0% 98%;
+--popover: 240 10% 3.9%;
+--popover-foreground: 0 0% 98%;
+--primary: 0 0% 98%;
+--primary-foreground: 240 5.9% 10%;
+--secondary: 240 3.7% 15.9%;
+--secondary-foreground: 0 0% 98%;
+--muted: 240 3.7% 15.9%;
+--muted-foreground: 240 5% 64.9%;
+--accent: 240 3.7% 15.9%;
+--accent-foreground: 0 0% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 0 0% 98%;
+--border: 240 3.7% 15.9%;
+--input: 240 3.7% 15.9%;
+--ring: 240 4.9% 83.9%;
+				}
+			}
+		</style>
+  </head>
+  <body>
+    
+
+<div class="flex h-screen">
+  <div class="w-64 bg-card p-4">
+    <nav class="space-y-2">
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <i class="fas fa-home">Home</i>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="category.html"><i class="fas fa-book"></i> Category</a>
+      </a>
+      <a href="user.html" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="user.html"><i class="fas fa-user"></i> User</a>
+        <span class="ml-auto text-xs bg-green-500 text-white px-2 py-0.5 rounded">New</span>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="company.html"><i class="fas fa-google"></i> Company</a>
+        <span class="ml-auto text-xs bg-green-500 text-white px-2 py-0.5 rounded">New</span>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="General.html"><i class="fas fa-envelope"></i> General</a>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="help.html"><i class="fas fa-exclamation-triangle"></i>  Help & support desk</a>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="Subscription.html"><i class="fas fa-bell"></i> Subscription</a>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="Banner.html"><i class="fas fa-banner"></i> Banner</a>
+      </a>
+      <a href="#" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="Account.html"><i class="fas fa-account"></i> Account</a>
+      </a>
+      <a href="My account.html" class="flex items-center p-2 text-foreground hover:bg-muted rounded">
+        <a href="My account.html"><i class="fas fa-Myacont"></i> My Account</a>
+      </a>
+    </nav>
+    <!-- <div class="mt-auto">
+      <div class="flex items-center p-2 bg-muted rounded mb-2">
+        <a href="#"><i class="fas fa-user"></i> Banner</a>
+        <div>
+          <a href="#"><i class="fas fa-user"></i> Account</a>
+          <a href="#"><i class="fas fa-user"></i> My Account</a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="flex-1 p-6 bg-background">
+    <header class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-bold text-primary">Welcome RN SERVICES!</h1>
+      <button class="bg-secondary text-secondary-foreground px-4 py-2 rounded hover:bg-secondary/80">Take a Tour</button>
+    </header>
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Overview</h2>
+      <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center">
+          <button class="bg-muted text-muted-foreground px-4 py-2 rounded mr-2">This Week</button>
+          <span class="text-muted-foreground">15 Jul 24 - 17 Jul 24</span>
+        </div>
+      </div>
+      <div class="text-center">
+        <img src="homepageLandingImage.jpg.svg" alt="Illustration of receiving payments" class="mx-auto mb-4" />
+        <h3 class="text-xl font-semibold">All set to receive payments Jobkar Solution</h3>
+        <p class="text-muted-foreground">
+          Begin accepting payments to view your metrics. For past transactions adjust the filter. Relax, watch your payments update here, and explore other sections to see what's new!
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+<style>
+  footer {
+    background: #0d0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+</style>
+<footer>
+  <div class="container">
+      <p>&copy; 2024 Our Company. All rights reserved.</p>
+  </div>
+</footer>
+  </body>
+</html>
